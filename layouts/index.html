@@ -44,6 +44,12 @@
         <span class="fa-brands fa-facebook"></span> Facebook: {{ . }}
       </a>
       {{ end }}
+      {{ with .Site.Params.gateway_tumblr_username }}
+      <a href="https://www.tumblr.com/blog/{{ . }}">
+        <span class="fa-brands fa-facebook"></span> Tumblr: {{ . }}
+      </a>
+      {{ end }}
+      
       {{ with .Site.Params.gateway_threads_username }}
       <a href="https://threads.net/{{ . }}">
         <span class="fa-brands fa-threads"></span> Threads: {{ . }}
