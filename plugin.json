@@ -16,6 +16,10 @@
       "label": "Twitter username"
     },
     {
+      "field": "params.gateway_tumblr_username",
+      "label": "Tumblr username"
+    },
+    {
       "field": "params.gateway_facebook_username",
       "label": "Facebook username"
     },
